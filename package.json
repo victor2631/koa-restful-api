@@ -1,0 +1,32 @@
+{
+  "name": "koa-restful-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victor2631/koa-restful-api.git"
+  },
+  "author": "victorchan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victor2631/koa-restful-api/issues"
+  },
+  "homepage": "https://github.com/victor2631/koa-restful-api#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "koa": "^2.12.1",
+    "koa-router": "^7.4.0",
+    "log4js": "^6.3.0"
+  },
+  "devDependencies": {
+    "apidoc": "^0.23.0",
+    "gulp": "^4.0.2",
+    "koa-static": "^5.0.0",
+    "swagger-ui-dist": "^3.26.2"
+  }
+}
